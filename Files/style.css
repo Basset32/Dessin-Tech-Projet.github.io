@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    background:white;
+}
+h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   font-size: 50px;
+   color: #31304D;
+   padding: 70px;
+
+}
+.names{
+
+    max-width: 400px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    margin-left: 360px;
+    font-size: 30px;
+    color: white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(30, 30, 30);
+    cursor: pointer;
+    
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-size: 22px;
+    color: #31304D;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 100px;
+    padding-top:50px;
+    
+}
+.G{
+    color: #31304D;
+}
+.G:hover{
+    font-size: 110px;
+    color: #B6BBC4;
+    transition: 0.3s ease;
+}
+.Contact{
+    color: white;
+    text-decoration: dotted;
+}
+.Contact:hover{
+    font-size: 33px;
+    opacity: 52%;
+    transition: 0.3s ease;
+}
+li{
+    list-style: none;
+}
+.img{
+    background-color: transparent;
+    max-width: 200px;
+    margin-left: 100px;
+}
+.title{
+    display: inline-flex;
+   
+}
+h2{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 0px;
+   margin-right: 50px;
+   font-size: 30px;
+   color: #31304D;
+   padding: 70px;
+}
+.names:hover{
+    color: white;
+    background-color: #31304D;
+    transition: 0.5s ease;
+}
+h3{
+    color: #31304D;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    
+}
